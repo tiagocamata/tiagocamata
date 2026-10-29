@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="170" viewBox="0 0 760 170" role="img" aria-label="Tiago Camata">
+  <title>Tiago Camata</title>
+  <defs>
+    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#22344b"/>
+      <stop offset="1" stop-color="#070b12"/>
+    </linearGradient>
+    <linearGradient id="gloss" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="ledGlow">
+      <stop offset="0" stop-color="#56ff8a" stop-opacity="0.75"/>
+      <stop offset="1" stop-color="#56ff8a" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="ledOn" cx="0.4" cy="0.35" r="0.7">
+      <stop offset="0" stop-color="#d8ffe4"/>
+      <stop offset="0.35" stop-color="#56ff8a"/>
+      <stop offset="1" stop-color="#16803a"/>
+    </radialGradient>
+    <linearGradient id="barBlue" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#3fb4ff"/>
+      <stop offset="1" stop-color="#6cd4ff"/>
+    </linearGradient>
+    <linearGradient id="barHot" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#3fb4ff"/>
+      <stop offset="1" stop-color="#ff4d5e"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="6" y="6" width="748" height="158" rx="14" fill="url(#glass)" stroke="#6f98c8" stroke-opacity="0.7" stroke-width="1.5"/>
+  <rect x="8" y="8" width="744" height="74" rx="12" fill="url(#gloss)"/>
+
+  <!-- LED -->
+  <rect x="26" y="30" width="34" height="110" rx="5" fill="#ffffff" fill-opacity="0.12" stroke="#ffffff" stroke-opacity="0.35"/>
+  <circle cx="43" cy="58" r="20" fill="url(#ledGlow)"/>
+  <circle cx="43" cy="58" r="9" fill="url(#ledOn)" stroke="#000" stroke-opacity="0.6"/>
+
+  <!-- Nome -->
+  <text x="82" y="78" font-family="Segoe UI, Verdana, DejaVu Sans, sans-serif" font-size="40" font-weight="700" fill="#ffffff">Tiago <tspan fill="#8cd6ff" font-weight="300">Camata</tspan></text>
+  <text x="84" y="110" font-family="Segoe UI, Verdana, DejaVu Sans, sans-serif" font-size="16" fill="#86a6c4" font-style="italic">Brazil · builds small things that blink</text>
+
+  <!-- Painel de "métricas" -->
+  <g font-family="Consolas, Menlo, DejaVu Sans Mono, monospace" font-size="13" fill="#9cc4e4">
+    <text x="470" y="52">COFFEE</text>
+    <rect x="578" y="42" width="150" height="8" rx="4" fill="#000" fill-opacity="0.45"/>
+    <rect x="578" y="42" width="147" height="8" rx="4" fill="url(#barHot)"/>
+
+    <text x="470" y="84">NOSTALGIA</text>
+    <rect x="578" y="74" width="150" height="8" rx="4" fill="#000" fill-opacity="0.45"/>
+    <rect x="578" y="74" width="150" height="8" rx="4" fill="url(#barHot)"/>
+
+    <text x="470" y="116">FLAT DESIGN</text>
+    <rect x="578" y="106" width="150" height="8" rx="4" fill="#000" fill-opacity="0.45"/>
+    <rect x="578" y="106" width="8" height="8" rx="4" fill="url(#barBlue)"/>
+  </g>
+  <text x="728" y="146" font-family="Consolas, Menlo, DejaVu Sans Mono, monospace" font-size="11" fill="#5f7d99" text-anchor="end">tolerance levels, measured scientifically</text>
+</svg>
